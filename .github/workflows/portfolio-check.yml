@@ -1,0 +1,26 @@
+
+name: Portfolio CI Check
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-portfolio:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Get portfolio code
+        uses: actions/checkout@v4
+
+      - name: Check required files
+        run: |
+          test -f index.html
+          test -f styles.css
+          test -f script.js
+          echo "Portfolio files found successfully!"
