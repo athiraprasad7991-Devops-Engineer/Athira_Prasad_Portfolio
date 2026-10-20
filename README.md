@@ -28,4 +28,4 @@ Open `index.html` in your browser.
 GitHub's interface may change. Use the current GitHub Pages documentation if a setting is different.
 
 ## Important
-The project descriptions on this portfolio are summaries of software development experience. DevOps technologies are described as a learning path rather than claimed professional expertise. Keep the page truthful and update the learning status as you complete projects.
+The project descriptions on this portfolio summarise software development experience. The Cloud & CI/CD section describes areas of technical focus and example project directions; do not present planned work as completed work. Add repository links and update status labels when you have verified results to share.
