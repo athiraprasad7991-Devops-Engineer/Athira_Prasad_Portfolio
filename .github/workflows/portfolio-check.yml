@@ -24,3 +24,9 @@ jobs:
           test -f styles.css
           test -f script.js
           echo "Portfolio files found successfully!"
+      
+      - name: Check HTML structure
+        run: |
+          grep -qi '<html' index.html
+          grep -qi '<title' index.html
+
